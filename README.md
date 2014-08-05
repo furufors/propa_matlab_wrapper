@@ -16,3 +16,28 @@ gcc -o filename filename.c -L./ -lpropa -lm
 
 ## Usage
 If the executables as well as the matlab functions are in your Matlab working directory, you can call the functions like any other matlab-function.
+
+**Function inputs**
+```
+lat = Latitude (&deg;)
+lon = Logitude (&deg;)
+hs  = Earth station altitude (km)
+E   = Link elevation angle (rad)
+f   = Link frequency (GHz)
+to  = Tilt polarization angle (&deg;)
+D   = Earth station antenna diameter (m)
+eta = Earth station antenna efficiency
+p   = Percentage of the time (%)
+```
+
+**Function outputs**
+```
+cloud_attenuation ->
+gaseous_attenuation ->
+gaseous_attenuation_exc ->
+rain_attenuation ->
+rain_height ->
+rain_intensity ->
+scintillation ->
+temperature -> 
+```
