@@ -19,12 +19,12 @@ If the executables as well as the matlab functions are in your Matlab working di
 
 **Function inputs**
 ```
-lat = Latitude (&deg;)
-lon = Logitude (&deg;)
+lat = Latitude (°)
+lon = Logitude (°)
 hs  = Earth station altitude (km)
 E   = Link elevation angle (rad)
 f   = Link frequency (GHz)
-to  = Tilt polarization angle (&deg;)
+to  = Tilt polarization angle (°)
 D   = Earth station antenna diameter (m)
 eta = Earth station antenna efficiency
 p   = Percentage of the time (%)
