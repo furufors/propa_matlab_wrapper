@@ -1,7 +1,6 @@
 propa_matlab_wrapper
 ====================
-**Propagation models from ITU-R**
-The propagation dynamic linked library, by Frédéric Lacoste, provides functionality to predict some propagation parameters based on the ITU-R recommendations.
+**The propagation dynamic linked library**, by Frédéric Lacoste, provides functionality to predict some propagation parameters based on the ITU-R recommendations.
 
 Since some matlab versions won't accept the propa.dll file found at: http://logiciels.cnes.fr/PROPA/en/logiciel.htm
 To quickly solve this I wrote minimalistic wrappers to provide system calls for the functions provided by the library. This workaround is possible if your system can link against the library but Matlab can't.
