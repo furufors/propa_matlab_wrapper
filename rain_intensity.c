@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     sscanf(argv[2], "%lf", &lon);
     sscanf(argv[3], "%lf", &p);
 
-    // Temperature
+    // Rain intensity
     printf("%f\n", rain_intensity(lat,lon,p));
 
     FreeLibrary(propaDLL);

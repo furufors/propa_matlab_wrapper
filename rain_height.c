@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     sscanf(argv[1], "%lf", &lat);
     sscanf(argv[2], "%lf", &lon);
 
-    // RAIN HEIGHT
+    // Rain height
     printf("%f\n", rain_height(lat,lon));
 
     FreeLibrary(propaDLL);
