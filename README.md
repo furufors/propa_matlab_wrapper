@@ -17,7 +17,7 @@ gcc -o filename filename.c -L./ -lpropa -lm
 ## Usage
 If the executables as well as the matlab functions are in your Matlab working directory, you can call the functions like any other matlab-function.
 
-**Function inputs**
+**Function arguments**
 ```
 lat = Latitude (°)
 lon = Logitude (°)
