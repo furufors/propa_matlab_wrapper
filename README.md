@@ -32,12 +32,12 @@ p   = Percentage of the time (%)
 
 **Function outputs**
 ```
-cloud_attenuation ->
-gaseous_attenuation ->
-gaseous_attenuation_exc ->
-rain_attenuation ->
-rain_height ->
-rain_intensity ->
-scintillation ->
-temperature -> 
+cloud_attenuation -> for the given percentage the attenuation exceedes this value (db)
+gaseous_attenuation -> (dB)
+gaseous_attenuation_exc -> for the given percentage the attenuation exceedes this value (dB)
+rain_attenuation -> for the given percentage the attenuation exceedes this value (dB)
+rain_height -> ??
+rain_intensity -> mm/h?
+scintillation -> for the given percentage the attenuation exceedes this value (dB)
+temperature -> (K)
 ```
