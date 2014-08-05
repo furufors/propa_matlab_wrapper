@@ -6,7 +6,7 @@ Since some matlab versions won't accept the propa.dll file found at: http://logi
 ## Compiling
 Provided you have got GCC installed and that the propa.dll file is located in the working directory, compile with:
 ```
-`gcc -o filename filename.c -L./ -lpropa -lm
+gcc -o filename filename.c -L./ -lpropa -lm
 ```
 
 ## Usage
