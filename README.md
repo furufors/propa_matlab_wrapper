@@ -2,8 +2,8 @@ propa_matlab_wrapper
 ====================
 **The propagation dynamic linked library**, by Frédéric Lacoste, provides functionality to predict some propagation parameters based on the ITU-R recommendations.
 
-Since some matlab versions won't accept the propa.dll file found at: http://logiciels.cnes.fr/PROPA/en/logiciel.htm
-To quickly solve this I wrote minimalistic wrappers to provide system calls for the functions provided by the library. This workaround is possible if your system can link against the library but Matlab can't.
+Some matlab versions won't accept the propa.dll file found at: https://logiciels.cnes.fr/en/content/propa.
+To quickly solve this, these minimalistic wrappers provide system calls for library's functions. This workaround is possible if your system can link against the library but Matlab can't.
 
 The dll-file is not provided in this repository and should be downloaded from the above address.
 
@@ -45,7 +45,7 @@ temperature -> (K)
 
 ## Further documentation
 Users manual:
-http://logiciels.cnes.fr/PROPA/en/usermanual.pdf
+http://logiciels.cnes.fr/PROPA/en/usermanual.pdf (link broken)
 
 Validation tables:
-http://logiciels.cnes.fr/PROPA/en/validation_examples.pdf
+http://logiciels.cnes.fr/PROPA/en/validation_examples.pdf (link broken)
